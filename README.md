@@ -38,7 +38,11 @@ Una solución integral para monitorear, gestionar y visualizar comunicaciones MQ
 
 ---
 
-## 🎬 Demo Rápido
+## 🎬 Demostracion de uso 
+
+![Image](https://github.com/user-attachments/assets/128f40fe-55c1-4c9d-bf27-a3176a731fb7)
+![Image](https://github.com/user-attachments/assets/d34ab8da-a228-4ed7-bcf7-70d8386d2377)
+![Image](https://github.com/user-attachments/assets/65049d1e-b659-4785-aa4b-ba909ecc7895)
 
 ```bash
 # Instalar y ejecutar en 3 comandos
