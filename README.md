@@ -1,4 +1,6 @@
-# MQTT-Linux-Manager-PIXELBITS
+<img width="1024" height="203" alt="Image" src="https://github.com/user-attachments/assets/14d618cc-fff9-4443-9aa9-48613e3cdc04" />
+
+
 Monitor en CLI para sistemas Linux especificamente Kali , para testeo de experimentos MQTT abiertos . 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,6 +11,19 @@ Monitor en CLI para sistemas Linux especificamente Kali , para testeo de experim
 >  **Herramienta completa de gestión MQTT con dashboard web interactivo**
 
 Una solución integral para monitorear, gestionar y visualizar comunicaciones MQTT entre dispositivos. Incluye un script interactivo de terminal y un dashboard web moderno con funcionalidades avanzadas.
+
+
+## 📊 Estadísticas del Proyecto
+
+<div align="center">
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Pacheco55/MQTT-Linux-Manager-PIXELBITS?color=orange)
+![GitHub issues](https://img.shields.io/github/issues/Pacheco55/MQTT-Linux-Manager-PIXELBITS?color=yellow)
+![GitHub stars](https://img.shields.io/github/stars/Pacheco55/MQTT-Linux-Manager-PIXELBITS?style=social)
+
+<img width="265" height="222" alt="Image" src="https://github.com/user-attachments/assets/5a46581e-1623-4af3-9b66-7ddadab679b0" />
+
+<br>
 
 ## ✨ Características Principales
 
@@ -413,15 +428,17 @@ sudo apt install influxdb grafana
 
 ---
 
-## 📋 Roadmap
+##  🛠️ Tecnologias
 
-- [ ] 🔐 **Autenticación JWT** para dashboard web
-- [ ] 📱 **App móvil** para iOS/Android
-- [ ] 🐳 **Docker containers** para deploy fácil
-- [ ] 📊 **Integración con InfluxDB/Grafana**
-- [ ] 🔍 **Search y filtros** avanzados en mensajes
-- [ ] 🌍 **Soporte multi-idioma**
-- [ ] 🎨 **Temas personalizables** para dashboard
+![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+![Linux](https://img.shields.io/badge/Linux-Kernel-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+
+![MQTT](https://img.shields.io/badge/MQTT-Protocol-6600CC?style=for-the-badge&logo=mqtt&logoColor=white)
 
 ---
 
@@ -440,53 +457,36 @@ sudo apt install influxdb grafana
 
 ---
 
-## **Soporte**
+## 🌐 Contacto
 
-¿Necesitas ayuda? ¡Estamos aquí para ti!
+<div align="center">
 
-**Sugerencias**: Discussions en el repositorio
+**PIXELBITS Studios** - *Innovación en tecnología embebida*
 
-**Contacto**: [info@pixelbits.studio](https://github.com/Pacheco55/PIXELBITS-Studio-blog/tree/HTMLpbsb)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCkLUjIeYTECtigFdcQjWu5Q)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/pixelbitstud)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/pixelbits_studio/about)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@pixelbits.studio)
 
----
-
-## **Créditos**
-
-### **Desarrollo Principal**
-
-**PIXELBITS Studios**
-*Innovación en tecnología y Software *
-
-### **Lead Developer**
-
-**Pacheco 55**
-*Arquitecto de software y especialista en AudioVisuales*
+</div>
 
 ---
 
-## **Licencia**
+## 📜 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para detalles.
 
----
-
-## **¡Apóyanos!**
-
-Si este proyecto te ha sido útil:
-
-Dale una estrella al repositorio, compártelo con otros developers, déjanos tus comentarios y contribuye al proyecto.
+[![License](https://img.shields.io/badge/Licencia-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
 <div align="center">
 
-### **Hecho con amor por PIXELBITS Studios**
+### **Hecho con 👽 por PIXELBITS Studios**
 
-*Transformando ideas en código, un mensaje a la vez.*
+**MQTT Linux Manager PIXELBITS Monitor - Porque entender tu entorno es el primer paso hacia la conectividad.**
 
-**[Instagram](https://www.instagram.com/pixelbits_studios/) | [YouTube](https://www.youtube.com/channel/UCkLUjIeYTECtigFdcQjWu5Q) | [Twitter](https://x.com/pixelbitstud) | [Twitch](https://www.twitch.tv/pixelbits_studio/about)**
+[![Repository Views](https://komarev.com/ghpvc/?username=pixelbits-opera-num&color=00ff41&style=flat-square&label=Visitas+de+otros+Mundos)](https://github.com/Pacheco55/WiFi-Monitor-ESP32)
 
----
 
-*MQTT Linux Manager PIXELBITS Monitor - Porque entender tu entorno es el primer paso hacia la conectividad.*
 </div>
