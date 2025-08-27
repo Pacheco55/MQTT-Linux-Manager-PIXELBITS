@@ -1,21 +1,21 @@
+<div align="center">
+
 <img width="1024" height="203" alt="Image" src="https://github.com/user-attachments/assets/14d618cc-fff9-4443-9aa9-48613e3cdc04" />
 
+# MQTT Linux Manager PIXELBITS Monitor
 
-Monitor en CLI para sistemas Linux especificamente Kali , para testeo de experimentos MQTT abiertos . 
+Monitor en CLI para sistemas Linux específicamente Kali, para testeo de experimentos MQTT abiertos.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](https://github.com)
 [![MQTT](https://img.shields.io/badge/MQTT-3.1.1-blue.svg)](https://mqtt.org/)
 [![Bash](https://img.shields.io/badge/Bash-5.0%2B-green.svg)](https://www.gnu.org/software/bash/)
 
->  **Herramienta completa de gestión MQTT con dashboard web interactivo**
+> **Herramienta completa de gestión MQTT con dashboard web interactivo**
 
 Una solución integral para monitorear, gestionar y visualizar comunicaciones MQTT entre dispositivos. Incluye un script interactivo de terminal y un dashboard web moderno con funcionalidades avanzadas.
 
-
 ## 📊 Estadísticas del Proyecto
-
-<div align="center">
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pacheco55/MQTT-Linux-Manager-PIXELBITS?color=orange)
 ![GitHub issues](https://img.shields.io/github/issues/Pacheco55/MQTT-Linux-Manager-PIXELBITS?color=yellow)
@@ -27,7 +27,7 @@ Una solución integral para monitorear, gestionar y visualizar comunicaciones MQ
 
 ## ✨ Características Principales
 
-### 🎯 **Script de Terminal Interactivo**
+### 🎯 Script de Terminal Interactivo
 - 📡 **Suscripción dinámica** a múltiples topics con QoS configurable
 - 📤 **Envío de mensajes** con validación automática
 - 👀 **Monitor en tiempo real** de todas las comunicaciones
@@ -35,7 +35,7 @@ Una solución integral para monitorear, gestionar y visualizar comunicaciones MQ
 - ⚙️ **Configuración avanzada** de broker y conexiones
 - 🧪 **Mensajes de prueba** automatizados
 
-### 🌐 **Dashboard Web Moderno**
+### 🌐 Dashboard Web Moderno
 - 🎨 **Interface moderna** con efectos glassmorphism
 - 📈 **Visualización en tiempo real** de mensajes y estadísticas
 - 🔔 **Notificaciones inteligentes** y alertas visuales
@@ -43,7 +43,7 @@ Una solución integral para monitorear, gestionar y visualizar comunicaciones MQ
 - 📱 **Diseño responsivo** para todos los dispositivos
 - 🎛️ **Control total** de suscripciones y configuraciones
 
-### 🔧 **Funcionalidades Técnicas**
+### 🔧 Funcionalidades Técnicas
 - ✅ Soporte completo para **MQTT 3.1.1**
 - ✅ **Multi-plataforma**: Linux, Windows, macOS
 - ✅ **Auto-reconexión** y manejo de errores
@@ -53,7 +53,7 @@ Una solución integral para monitorear, gestionar y visualizar comunicaciones MQ
 
 ---
 
-## 🎬 Demostracion de uso 
+## 🎬 Demostración de Uso
 
 ![Image](https://github.com/user-attachments/assets/128f40fe-55c1-4c9d-bf27-a3176a731fb7)
 ![Image](https://github.com/user-attachments/assets/d34ab8da-a228-4ed7-bcf7-70d8386d2377)
@@ -70,7 +70,7 @@ chmod +x mqtt_manager.sh
 
 ## 📦 Instalación Completa
 
-### 🐧 **Linux (Ubuntu/Debian/Kali)**
+### 🐧 Linux (Ubuntu/Debian/Kali)
 
 #### 1. Instalar MQTT Broker (Mosquitto)
 ```bash
@@ -119,7 +119,7 @@ chmod +x mqtt_manager.sh
 
 ---
 
-### 🪟 **Windows 10/11**
+### 🪟 Windows 10/11
 
 #### 1. Instalar MQTT Cliente
 
@@ -175,7 +175,7 @@ pause
 
 ---
 
-### 🍎 **macOS**
+### 🍎 macOS
 
 #### 1. Instalar usando Homebrew
 ```bash
@@ -210,14 +210,14 @@ brew services restart mosquitto
 ```bash
 # Permitir puerto 1883 en firewall
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --add /usr/local/sbin/mosquitto
-sudo /usr/libexec/ApplicationFirewall/socketfilterfw --unblockapp /usr/local/sbin/mosquitto
+sudo /usr.libexec/ApplicationFirewall/socketfilterfw --unblockapp /usr/local/sbin/mosquitto
 ```
 
 ---
 
 ## 🔧 Configuración de Red
 
-### 📡 **Configuración del Broker**
+### 📡 Configuración del Broker
 
 Para permitir conexiones desde otras máquinas:
 
@@ -231,7 +231,7 @@ allow_anonymous true
 bind_address 0.0.0.0
 ```
 
-### 🔒 **Configuración de Firewall**
+### 🔒 Configuración de Firewall
 
 **Linux:**
 ```bash
@@ -254,7 +254,7 @@ echo "pass in on en0 proto tcp from any to any port 1883" | sudo pfctl -f -
 
 ## 🚀 Uso Rápido
 
-### 🎯 **Script de Terminal**
+### 🎯 Script de Terminal
 
 ```bash
 # Ejecutar MQTT Manager
@@ -267,7 +267,7 @@ echo "pass in on en0 proto tcp from any to any port 1883" | sudo pfctl -f -
 [9] 🌐 Dashboard Web            # Interface gráfica
 ```
 
-### 🌐 **Dashboard Web**
+### 🌐 Dashboard Web
 
 El dashboard se auto-genera en `/tmp/mqtt_dashboard_completo.html`
 
@@ -282,7 +282,7 @@ El dashboard se auto-genera en `/tmp/mqtt_dashboard_completo.html`
 
 ## 💡 Ejemplos de Uso
 
-### 🔄 **Comunicación entre Windows y Linux**
+### 🔄 Comunicación entre Windows y Linux
 
 **En Linux (Kali) - Receptor:**
 ```bash
@@ -296,7 +296,7 @@ mosquitto_sub -h localhost -t "windows/data" -v
 mosquitto_pub -h 192.168.1.100 -t "windows/data" -m "Hola desde Windows!"
 ```
 
-### 🏠 **IoT y Sensores**
+### 🏠 IoT y Sensores
 
 **Topics sugeridos:**
 ```bash
@@ -316,7 +316,7 @@ while true; do
 done
 ```
 
-### 📊 **Monitoreo de Sistema**
+### 📊 Monitoreo de Sistema
 
 ```bash
 # Script de monitoreo automático
@@ -336,7 +336,7 @@ done
 
 ## 🐛 Troubleshooting
 
-### ❌ **Problemas Comunes**
+### ❌ Problemas Comunes
 
 **1. "mosquitto_pub: command not found"**
 ```bash
@@ -379,7 +379,7 @@ telnet [IP_DEL_BROKER] 1883
 # Se convierten a nombres de archivo seguros automáticamente
 ```
 
-### 🔍 **Debugging Avanzado**
+### 🔍 Debugging Avanzado
 
 ```bash
 # Logs detallados de mosquitto
@@ -399,7 +399,7 @@ sudo mosquitto -c /etc/mosquitto/mosquitto.conf -v
 
 ## 📈 Características Avanzadas
 
-### 🔐 **Seguridad (Opcional)**
+### 🔐 Seguridad (Opcional)
 
 ```bash
 # Habilitar autenticación
@@ -409,7 +409,7 @@ sudo mosquitto_passwd -c /etc/mosquitto/passwd usuario1
 sudo nano /etc/mosquitto/conf.d/ssl.conf
 ```
 
-### 🌐 **WebSocket Support**
+### 🌐 WebSocket Support
 
 ```bash
 # Habilitar WebSocket para dashboard avanzado
@@ -418,7 +418,7 @@ echo "protocol websockets" | sudo tee -a /etc/mosquitto/conf.d/websocket.conf
 sudo systemctl restart mosquitto
 ```
 
-### 📊 **Integración con Grafana**
+### 📊 Integración con Grafana
 
 ```bash
 # Instalar InfluxDB + Grafana para visualización avanzada
@@ -428,16 +428,12 @@ sudo apt install influxdb grafana
 
 ---
 
-##  🛠️ Tecnologias
+## 🛠️ Tecnologías
 
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
 ![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-
 ![Linux](https://img.shields.io/badge/Linux-Kernel-000000?style=for-the-badge&logo=linux&logoColor=white)
-
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
 ![MQTT](https://img.shields.io/badge/MQTT-Protocol-6600CC?style=for-the-badge&logo=mqtt&logoColor=white)
 
 ---
@@ -449,17 +445,16 @@ sudo apt install influxdb grafana
 - 📡 [MQTT.org](https://mqtt.org/) - Protocolo y documentación
 
 ---
-## **Consideraciones Legales**
 
-**IMPORTANTE**: Este Modelo no deve ser usado para fines comerciales ni para su explotacion con fines de lucro .
+## ⚠️ Consideraciones Legales
 
-**Úsala responsablemente y respeta las leyes locales sobre derechos de autor i propiedad intelectual.**
+**IMPORTANTE**: Este Modelo no debe ser usado para fines comerciales ni para su explotación con fines de lucro.
+
+**Úsala responsablemente y respeta las leyes locales sobre derechos de autor y propiedad intelectual.**
 
 ---
 
 ## 🌐 Contacto
-
-<div align="center">
 
 **PIXELBITS Studios** - *Innovación en tecnología embebida*
 
@@ -467,8 +462,6 @@ sudo apt install influxdb grafana
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/pixelbitstud)
 [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/pixelbits_studio/about)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@pixelbits.studio)
-
-</div>
 
 ---
 
@@ -480,13 +473,10 @@ Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para detalles.
 
 ---
 
-<div align="center">
-
 ### **Hecho con 👽 por PIXELBITS Studios**
 
 **MQTT Linux Manager PIXELBITS Monitor - Porque entender tu entorno es el primer paso hacia la conectividad.**
 
 [![Repository Views](https://komarev.com/ghpvc/?username=pixelbits-opera-num&color=00ff41&style=flat-square&label=Visitas+de+otros+Mundos)](https://github.com/Pacheco55/WiFi-Monitor-ESP32)
-
 
 </div>
